@@ -253,7 +253,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SWMJWEIO
 
 [Document13]
-DocumentPath=P02_AMOLED.Harness
+DocumentPath=P06_ESP32S3R8_Core.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -270,7 +270,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=P07_Peripheral.Harness
+DocumentPath=P02_AMOLED.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -287,7 +287,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document15]
-DocumentPath=P04_ USB.Harness
+DocumentPath=P07_Peripheral.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -304,7 +304,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=P05_ Debugger.Harness
+DocumentPath=P04_ USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -321,7 +321,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document17]
-DocumentPath=P06_ESP32S3R8_Core.Harness
+DocumentPath=P05_ Debugger.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -344,6 +344,10 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ESP32_Watch\Design Rule Check - ESP_Watch_PCB.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=SheetTotal

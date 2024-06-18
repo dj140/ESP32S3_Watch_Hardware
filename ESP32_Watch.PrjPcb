@@ -270,40 +270,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=P02_AMOLED.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document15]
-DocumentPath=P07_Peripheral.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document16]
 DocumentPath=P04_ USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +286,58 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document15]
+DocumentPath=P02_AMOLED.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document16]
+DocumentPath=P03_ Power Supplies.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Document17]
+DocumentPath=P07_Peripheral.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document18]
 DocumentPath=P05_ Debugger.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -347,6 +364,82 @@ ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for ESP32_Watch\Design Rule Check - ESP_Watch_PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.G1
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.G2
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for ESP32_Watch\ESP_Watch_PCB.TXT
 DItemRevisionGUID=
 
 [Parameter1]
@@ -656,6 +749,10 @@ OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=D:\For_study\New_folder\ESP32S3_Watch_Hardware\ESP_Watch_PCB.PcbDoc
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
@@ -720,7 +817,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=SWMJWEIO|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillDrawingLayerPair1_Backdrill=False|UncheckPlotDrillDrawingLayerPair1_Checked=False|UncheckPlotDrillDrawingLayerPair1_DrillType=Regular|UncheckPlotDrillDrawingLayerPair1_FileName= |UncheckPlotDrillDrawingLayerPair1_HighLayer=Mid Layer 1|UncheckPlotDrillDrawingLayerPair1_LowLayer=Top Layer|UncheckPlotDrillDrawingLayerPair2_Backdrill=False|UncheckPlotDrillDrawingLayerPair2_Checked=False|UncheckPlotDrillDrawingLayerPair2_DrillType=Regular|UncheckPlotDrillDrawingLayerPair2_FileName= |UncheckPlotDrillDrawingLayerPair2_HighLayer=Mid Layer 2|UncheckPlotDrillDrawingLayerPair2_LowLayer=Top Layer|UncheckPlotDrillDrawingLayerPair3_Backdrill=False|UncheckPlotDrillDrawingLayerPair3_Checked=False|UncheckPlotDrillDrawingLayerPair3_DrillType=Regular|UncheckPlotDrillDrawingLayerPair3_FileName= |UncheckPlotDrillDrawingLayerPair3_HighLayer=Mid Layer 3|UncheckPlotDrillDrawingLayerPair3_LowLayer=Top Layer|UncheckPlotDrillDrawingLayerPair4_Backdrill=False|UncheckPlotDrillDrawingLayerPair4_Checked=False|UncheckPlotDrillDrawingLayerPair4_DrillType=Regular|UncheckPlotDrillDrawingLayerPair4_FileName= |UncheckPlotDrillDrawingLayerPair4_HighLayer=Mid Layer 5|UncheckPlotDrillDrawingLayerPair4_LowLayer=Mid Layer 2|UncheckPlotDrillDrawingLayerPair5_Backdrill=False|UncheckPlotDrillDrawingLayerPair5_Checked=False|UncheckPlotDrillDrawingLayerPair5_DrillType=Regular|UncheckPlotDrillDrawingLayerPair5_FileName= |UncheckPlotDrillDrawingLayerPair5_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair5_LowLayer=Mid Layer 5|UncheckPlotDrillDrawingLayerPair6_Backdrill=False|UncheckPlotDrillDrawingLayerPair6_Checked=False|UncheckPlotDrillDrawingLayerPair6_DrillType=Regular|UncheckPlotDrillDrawingLayerPair6_FileName= |UncheckPlotDrillDrawingLayerPair6_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair6_LowLayer=Mid Layer 6|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair1_Backdrill=False|UncheckPlotDrillGuideLayerPair1_Checked=False|UncheckPlotDrillGuideLayerPair1_DrillType=Regular|UncheckPlotDrillGuideLayerPair1_FileName= |UncheckPlotDrillGuideLayerPair1_HighLayer=Mid Layer 1|UncheckPlotDrillGuideLayerPair1_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair2_Backdrill=False|UncheckPlotDrillGuideLayerPair2_Checked=False|UncheckPlotDrillGuideLayerPair2_DrillType=Regular|UncheckPlotDrillGuideLayerPair2_FileName= |UncheckPlotDrillGuideLayerPair2_HighLayer=Mid Layer 2|UncheckPlotDrillGuideLayerPair2_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair3_Backdrill=False|UncheckPlotDrillGuideLayerPair3_Checked=False|UncheckPlotDrillGuideLayerPair3_DrillType=Regular|UncheckPlotDrillGuideLayerPair3_FileName= |UncheckPlotDrillGuideLayerPair3_HighLayer=Mid Layer 3|UncheckPlotDrillGuideLayerPair3_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair4_Backdrill=False|UncheckPlotDrillGuideLayerPair4_Checked=False|UncheckPlotDrillGuideLayerPair4_DrillType=Regular|UncheckPlotDrillGuideLayerPair4_FileName= |UncheckPlotDrillGuideLayerPair4_HighLayer=Mid Layer 5|UncheckPlotDrillGuideLayerPair4_LowLayer=Mid Layer 2|UncheckPlotDrillGuideLayerPair5_Backdrill=False|UncheckPlotDrillGuideLayerPair5_Checked=False|UncheckPlotDrillGuideLayerPair5_DrillType=Regular|UncheckPlotDrillGuideLayerPair5_FileName= |UncheckPlotDrillGuideLayerPair5_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair5_LowLayer=Mid Layer 5|UncheckPlotDrillGuideLayerPair6_Backdrill=False|UncheckPlotDrillGuideLayerPair6_Checked=False|UncheckPlotDrillGuideLayerPair6_DrillType=Regular|UncheckPlotDrillGuideLayerPair6_FileName= |UncheckPlotDrillGuideLayerPair6_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair6_LowLayer=Mid Layer 6|DocumentPath=C:\Users\chad.crosby.AMBIQMICRO\Altium Projects\SVN Repo\trunk\Designs\Apollo4 Blue Plus KXR EVB\v1\Design\AMAP4BPEVBv1.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777223~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=D:\For_study\New_folder\ESP32S3_Watch_Hardware\ESP_Watch_PCB.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1592,25 +1689,43 @@ Net2=NetName=AP_USB.USB_P|NetColor=$000078F7
 Net3=NetName=AP_USB_N|NetColor=$000078F7
 Net4=NetName=AP_USB_P|NetColor=$000078F7
 Net5=NetName=GND|NetColor=$00C7A956
-Net6=NetName=MIPI_CLK.MIPI_N|NetColor=$0081D45C
-Net7=NetName=MIPI_CLK.MIPI_P|NetColor=$0081D45C
-Net8=NetName=MIPI_D0.MIPI_N|NetColor=$0081D45C
-Net9=NetName=MIPI_D0.MIPI_P|NetColor=$0081D45C
-Net10=NetName=NetCN1_12|NetColor=$0081D45C
-Net11=NetName=NetCN1_13|NetColor=$0081D45C
-Net12=NetName=NetCN1_15|NetColor=$0081D45C
-Net13=NetName=NetCN1_16|NetColor=$0081D45C
-Net14=NetName=NetU1_16|NetColor=$0081D45C
-Net15=NetName=NetU1_18|NetColor=$0081D45C
-Net16=NetName=NetU1_20|NetColor=$0081D45C
-Net17=NetName=NetU1_22|NetColor=$0081D45C
-Net18=NetName=NetU1_6|NetColor=$000078F7
-Net19=NetName=NetU1_8|NetColor=$000078F7
-Net20=NetName=VBAT|NetColor=$00FF39BC
-Net21=NetName=VDD_1.8V|NetColor=$00C2A5EB
-Net22=NetName=VDD_MCU|NetColor=$00C2A5EB
-Net23=NetName=VDDAUDA|NetColor=$00C2A5EB
-Net24=NetName=VDDB|NetColor=$00C2A5EB
+Net6=NetName=GPIO13|NetColor=$0066F6F7
+Net7=NetName=GPIO5|NetColor=$0066F6F7
+Net8=NetName=GPIO6|NetColor=$0066F6F7
+Net9=NetName=GPIO7|NetColor=$0066F6F7
+Net10=NetName=GPIO8|NetColor=$0066F6F7
+Net11=NetName=GPIO9|NetColor=$0066F6F7
+Net12=NetName=MIPI_CLK.MIPI_N|NetColor=$0081D45C
+Net13=NetName=MIPI_CLK.MIPI_P|NetColor=$0081D45C
+Net14=NetName=MIPI_D0.MIPI_N|NetColor=$0081D45C
+Net15=NetName=MIPI_D0.MIPI_P|NetColor=$0081D45C
+Net16=NetName=NetCN1_12|NetColor=$0081D45C
+Net17=NetName=NetCN1_13|NetColor=$0081D45C
+Net18=NetName=NetCN1_15|NetColor=$0081D45C
+Net19=NetName=NetCN1_16|NetColor=$0081D45C
+Net20=NetName=NetCN1_3|NetColor=$0066F6F7
+Net21=NetName=NetCN1_4|NetColor=$0066F6F7
+Net22=NetName=NetCN1_5|NetColor=$0066F6F7
+Net23=NetName=NetCN1_6|NetColor=$0066F6F7
+Net24=NetName=NetCN1_7|NetColor=$0066F6F7
+Net25=NetName=NetCN1_8|NetColor=$0066F6F7
+Net26=NetName=NetU1_16|NetColor=$0081D45C
+Net27=NetName=NetU1_18|NetColor=$0081D45C
+Net28=NetName=NetU1_20|NetColor=$0081D45C
+Net29=NetName=NetU1_22|NetColor=$0081D45C
+Net30=NetName=NetU1_6|NetColor=$000078F7
+Net31=NetName=NetU1_8|NetColor=$000078F7
+Net32=NetName=QSPI.DISP_CLK|NetColor=$0066F6F7
+Net33=NetName=QSPI.DISP_CS|NetColor=$0066F6F7
+Net34=NetName=QSPI.DISP_D0|NetColor=$0066F6F7
+Net35=NetName=QSPI.DISP_D1|NetColor=$0066F6F7
+Net36=NetName=QSPI.DISP_D2|NetColor=$0066F6F7
+Net37=NetName=QSPI.DISP_D3|NetColor=$0066F6F7
+Net38=NetName=VBAT|NetColor=$00FF39BC
+Net39=NetName=VDD_1.8V|NetColor=$00C2A5EB
+Net40=NetName=VDD_MCU|NetColor=$00C2A5EB
+Net41=NetName=VDDAUDA|NetColor=$00C2A5EB
+Net42=NetName=VDDB|NetColor=$00C2A5EB
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
